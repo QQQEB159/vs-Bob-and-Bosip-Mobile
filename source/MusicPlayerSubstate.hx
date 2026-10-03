@@ -14,6 +14,7 @@ import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.math.FlxMath;
 import openfl.geom.Point;
+import openfl.Assets;
 import flixel.system.FlxSound;
 
 #if windows
