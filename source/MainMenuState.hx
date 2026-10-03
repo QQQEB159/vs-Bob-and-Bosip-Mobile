@@ -710,7 +710,7 @@ class MainMenuState extends MusicBeatState
 				//vocals.volume = 1;
 				//if (useCharacter2) {
 					//vocals2.volume = 1;
-				}
+				//}
 			} else {
 				//vocals.time = FlxG.sound.music.time;
 				//vocals.volume = 0;
