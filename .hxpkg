@@ -51,7 +51,7 @@
             },
             {
                 "name": "linc_luajit",
-                "link": "https://github.com/ShadowEngineTeam/linc_luajit",
+                "link": "https://github.com/luckydog7/linc_luajit",
                 "branch": "master"
             },
             {

@@ -62,12 +62,12 @@ class DifficultySelectSubstate extends MusicBeatSubstate
 		add(bg);
 
 		
-		if (FileSystem.exists(Paths.instcheck(song))) 
+		if (Assets.exists(Paths.instcheck(song))) 
 			hasRegular = true;
 
 		
 		
-		if (FileSystem.exists(Paths.instEXcheck(song))) 
+		if (Assets.exists(Paths.instEXcheck(song))) 
 			hasEX = true;
 
 		trace(hasRegular);
