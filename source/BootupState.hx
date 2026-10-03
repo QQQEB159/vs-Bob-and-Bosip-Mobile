@@ -48,8 +48,8 @@ import sys.thread.Thread;
 
 using StringTools;
 
-import polymod.Polymod;
-import polymod.Polymod.PolymodError;
+//import polymod.Polymod;
+//import polymod.Polymod.PolymodError;
 
 class BootupState extends MusicBeatState
 {
