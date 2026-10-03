@@ -50,11 +50,6 @@
                 "branch": "master"
             },
             {
-                "name": "linc_luajit",
-                "link": "https://github.com/luckydog7/linc_luajit",
-                "branch": "master"
-            },
-            {
                 "name": "openfl",
                 "version": "9.2.2"
             },
