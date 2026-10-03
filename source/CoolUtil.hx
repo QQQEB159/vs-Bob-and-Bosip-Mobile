@@ -3,6 +3,7 @@ package;
 import lime.utils.Assets;
 
 import flixel.util.FlxColor;
+import flixel.FlxG;
 
 #if sys
 import sys.io.File;
@@ -74,5 +75,14 @@ class CoolUtil
 			dumbArray.push(i);
 		}
 		return dumbArray;
+	}
+	
+	public static function showPopUp(message:String, title:String):Void
+	{
+		/*#if android
+		android.Tools.showAlertDialog(title, message, {name: "OK", func: null}, null);
+		#else*/
+		FlxG.stage.window.alert(message, title);
+		//#end
 	}
 }
