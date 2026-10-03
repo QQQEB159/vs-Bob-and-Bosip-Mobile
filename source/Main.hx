@@ -54,6 +54,8 @@ class Main extends Sprite
 		Sys.setCwd(System.documentsDirectory);
 		#end
 		
+		CrashHandler.init();
+		
 		super();
 
 		if (stage != null)
@@ -103,7 +105,7 @@ class Main extends Sprite
 		webmHandle.source(ourSource);
 		webmHandle.makePlayer();
 		webmHandle.webm.name = str1;
-		#if !(desktop || android)
+		#if !desktop
 		WebmPlayer.SKIP_STEP_LIMIT = 90;
 		#end
 		addChild(webmHandle.webm);
