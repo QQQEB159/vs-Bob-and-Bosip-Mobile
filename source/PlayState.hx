@@ -340,6 +340,8 @@ class PlayState extends MusicBeatState
 
 	override public function create()
 	{
+		psych.Paths.clearStoredMemory();
+		
 		removedVideo = false;
 
 		instance = this;
@@ -2533,6 +2535,8 @@ class PlayState extends MusicBeatState
 			areYouReady.add(shit);
 		} 
 
+		psych.Paths.clearUnusedMemory();
+		
 		trace(dad.x);
 		trace(dad.y);
 	}
